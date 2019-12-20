@@ -80,5 +80,8 @@ revitElement= Revit.Elements
 #How to use funtion
 s= sin.__doc__
 
+def CovertColor(element): #Convert from color element to color of revit
+    return Autodesk.Revit.DB.Color(element.Red,element.Green,element.Blue)
+
 #Assign your output to the OUT variable.
 OUT = doors

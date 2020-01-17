@@ -1,0 +1,110 @@
+<Workspace Version="1.3.4.6666" X="-30.0313798175908" Y="-168.142665988046" zoom="0.60762381947985" ScaleFactor="1" Name="Home" Description="" RunType="Automatic" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="5defe6b1-015e-4bed-9f1e-663984f454c9" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="569.231551085673" y="661.710124482571" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;DynamoPoint1&quot;;" ShouldFocus="false" />
+    <CoreNodeModels.Input.Filename guid="8474a530-2512-4941-bb1d-12b4dab01ddf" type="CoreNodeModels.Input.Filename" nickname="File Path" x="458.231524422491" y="531.109982968681" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>.\excel91.xlsx</System.String>
+      <HintPath>C:\Users\Windows 10\Documents\excel91.xlsx</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <CoreNodeModels.Input.FileObject guid="1460ac64-7458-4822-8bc3-048216b525e5" type="CoreNodeModels.Input.FileObject" nickname="File.FromPath" x="635.704088379327" y="535.602869037458" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Input.FileObject>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="181a5c12-7670-4b99-9543-ffd63dd1b3f6" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="PointExcel" x="846.039370122251" y="611.521604707112" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <ID value="e5ac5fab-0461-4bbb-8f17-39a461e6b865" />
+      <Name value="PointExcel" />
+      <Description value="" />
+      <Inputs>
+        <Input value="" />
+        <Input value="" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <CoreNodeModels.Input.Filename guid="f2a78083-d781-422b-9f0d-cfc0da7c7cd5" type="CoreNodeModels.Input.Filename" nickname="File Path" x="429.215815641096" y="766.459620862221" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>.\excel91.xlsx</System.String>
+      <HintPath>C:\Users\Windows 10\Documents\excel91.xlsx</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <CoreNodeModels.Input.FileObject guid="688ca701-6bda-45a3-876c-8ba7f29418fd" type="CoreNodeModels.Input.FileObject" nickname="File.FromPath" x="606.688379597932" y="770.952506930998" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Input.FileObject>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="f168843d-90bd-40f9-afa8-7cbe230ff22a" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="540.215842304278" y="897.059762376111" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;DynamoPoint2&quot;;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="476e009f-6286-407b-b77c-59c48e63d752" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="PointExcel" x="840.608295344162" y="773.579617279923" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <ID value="e5ac5fab-0461-4bbb-8f17-39a461e6b865" />
+      <Name value="PointExcel" />
+      <Description value="" />
+      <Inputs>
+        <Input value="" />
+        <Input value="" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <CoreNodeModels.Input.Filename guid="dd4201e0-9ea5-4eaa-acdc-f5ca5951897b" type="CoreNodeModels.Input.Filename" nickname="File Path" x="466.743898795671" y="1011.57573216945" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>.\excel91.xlsx</System.String>
+      <HintPath>C:\Users\Windows 10\Documents\excel91.xlsx</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <CoreNodeModels.Input.FileObject guid="8c908006-5005-409d-9337-dc9e0bf18a2f" type="CoreNodeModels.Input.FileObject" nickname="File.FromPath" x="644.216462752507" y="1016.06861823822" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Input.FileObject>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="cb637154-184e-47d6-b83c-84d325e6983d" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="577.743925458853" y="1142.17587368334" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;DynamoPoint3&quot;;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="219cf98d-cfa6-41e9-9285-6c6e19a57196" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="PointExcel" x="850.14807968358" y="963.755734616657" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <ID value="e5ac5fab-0461-4bbb-8f17-39a461e6b865" />
+      <Name value="PointExcel" />
+      <Description value="" />
+      <Inputs>
+        <Input value="" />
+        <Input value="" />
+      </Inputs>
+      <Outputs>
+        <Output value="" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <CoreNodeModels.CreateList guid="a7fb4728-6bbf-4eb5-9d20-d9dd66299e91" type="CoreNodeModels.CreateList" nickname="List.Create" x="1129.97805201974" y="655.416199966601" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="3">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+    </CoreNodeModels.CreateList>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="be4d23eb-1c8a-44e5-91db-81f70e0aa19a" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Surface.ByLoft" x="1327.07159725928" y="681.191822725495" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Surface.ByLoft@Autodesk.DesignScript.Geometry.Curve[]">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <GeometryUI.ExportWithUnits guid="ba457679-01e2-4639-8278-6c79a7c84b4d" type="GeometryUI.ExportWithUnits" nickname="ExportToSAT" x="1812.75772508795" y="641.312688419427" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" exportedUnit="Meters">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+    </GeometryUI.ExportWithUnits>
+    <CoreNodeModels.Input.Filename guid="f4f397f1-f1da-4c12-9a15-a77232171ac1" type="CoreNodeModels.Input.Filename" nickname="File Path" x="1629.80397667036" y="755.89545405497" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>.\surfacesat.sat</System.String>
+      <HintPath>C:\Users\Windows 10\Documents\surfacesat.sat</HintPath>
+    </CoreNodeModels.Input.Filename>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="5defe6b1-015e-4bed-9f1e-663984f454c9" start_index="0" end="181a5c12-7670-4b99-9543-ffd63dd1b3f6" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8474a530-2512-4941-bb1d-12b4dab01ddf" start_index="0" end="1460ac64-7458-4822-8bc3-048216b525e5" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1460ac64-7458-4822-8bc3-048216b525e5" start_index="0" end="181a5c12-7670-4b99-9543-ffd63dd1b3f6" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="181a5c12-7670-4b99-9543-ffd63dd1b3f6" start_index="0" end="a7fb4728-6bbf-4eb5-9d20-d9dd66299e91" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f2a78083-d781-422b-9f0d-cfc0da7c7cd5" start_index="0" end="688ca701-6bda-45a3-876c-8ba7f29418fd" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="688ca701-6bda-45a3-876c-8ba7f29418fd" start_index="0" end="476e009f-6286-407b-b77c-59c48e63d752" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f168843d-90bd-40f9-afa8-7cbe230ff22a" start_index="0" end="476e009f-6286-407b-b77c-59c48e63d752" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="476e009f-6286-407b-b77c-59c48e63d752" start_index="0" end="a7fb4728-6bbf-4eb5-9d20-d9dd66299e91" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dd4201e0-9ea5-4eaa-acdc-f5ca5951897b" start_index="0" end="8c908006-5005-409d-9337-dc9e0bf18a2f" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8c908006-5005-409d-9337-dc9e0bf18a2f" start_index="0" end="219cf98d-cfa6-41e9-9285-6c6e19a57196" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="cb637154-184e-47d6-b83c-84d325e6983d" start_index="0" end="219cf98d-cfa6-41e9-9285-6c6e19a57196" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="219cf98d-cfa6-41e9-9285-6c6e19a57196" start_index="0" end="a7fb4728-6bbf-4eb5-9d20-d9dd66299e91" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="a7fb4728-6bbf-4eb5-9d20-d9dd66299e91" start_index="0" end="be4d23eb-1c8a-44e5-91db-81f70e0aa19a" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="be4d23eb-1c8a-44e5-91db-81f70e0aa19a" start_index="0" end="ba457679-01e2-4639-8278-6c79a7c84b4d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f4f397f1-f1da-4c12-9a15-a77232171ac1" start_index="0" end="ba457679-01e2-4639-8278-6c79a7c84b4d" end_index="1" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-107.940505981445" eyeY="83.8544540405273" eyeZ="-28.1322383880615" lookX="63.2176361083984" lookY="-77.9686431884766" lookZ="-17.9014587402344" upX="0.58573043346405" upY="0.793353319168091" upZ="-0.165862396359444" />
+  </Cameras>
+</Workspace>
